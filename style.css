@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+#container {
+	margin: 0px;
+  padding: 0px;
+	height: 100vh;
+}
+#videoElement {
+
+	height: 100vh;
+	background-color: #606;
+}
+#navy{
+  height: 5rem;
+  width: 5rem;
+  position: fixed;
+  z-index: 3;
+  left: 50%;
+  bottom: 3rem;
+  transform: translateX(-50%);
+  background-color: #46a0fa;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: transform;
+  transition-timing-function: ease;
+  transition-duration: 100ms;
+}
+#navy:active{
+  transform: translateX(-50%) scale(0.90);
+}
+
+#buty{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#nexy{
+  height: 100vh;
+}
+
+
+
+.range-wrap {
+  position: relative;
+  margin: 0 auto 3rem;
+  height: 100vh;
+}
+.range {
+  width: 100%;
+  padding: 50vh 0;
+  
+}
+.bubble {
+  background: #46a0fa;
+  color: white;
+  padding: 4px 12px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -50vh 0; 
+}
