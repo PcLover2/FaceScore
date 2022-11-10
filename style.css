@@ -5,8 +5,8 @@ body {
   margin: 0px;
 }
 #container {
-	margin: 0px;
-  padding: 0px;
+	margin: 0px 0px 0px 0px;
+  padding: 0px  0px 0px 0px;
 	height: 100vh;
 }
 #videoElement {
@@ -16,8 +16,8 @@ body {
 	background-color: #fff;
 }
 #navy{
-  height: 5rem;
-  width: 5rem;
+  height: 20rem;
+  width: 20rem;
   position: fixed;
   z-index: 3;
   left: 50%;
@@ -25,7 +25,7 @@ body {
   transform: translateX(-50%);
   background-color: #46a0fa;
   border: none;
-  border-radius: 1rem;
+  border-radius: 5rem;
   outline: none;
   cursor: pointer;
   transition: transform;
@@ -61,13 +61,16 @@ body {
   
 }
 .bubble {
+  font-size: 100px;
   background: #46a0fa;
   color: white;
-  padding: 4px 12px;
+  padding: 20px 30px;
   position: absolute;
-  border-radius: 4px;
+  border-radius: 50px;
   left: 50%;
   transform: translateX(-50%);
   font-family: Arial, Helvetica, sans-serif;
-  margin: -50vh 0; 
+  margin: -49vh 0; 
 }
+
+
